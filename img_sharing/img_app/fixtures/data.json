@@ -1,0 +1,110 @@
+[
+{
+    "model": "img_app.profile",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$qeBF9jM9wcBA$8ourbRaoyC5jMB5F7587vH9j2M5Uv6ld0A0UY/ak1RY=",
+        "last_login": "2020-02-12T11:08:40.670Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-02-12T08:44:21.967Z",
+        "groups": [],
+        "user_permissions": [],
+        "follows": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "img_app.profile",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$eQPwIEaazbCN$8u8f0EL8Mas9Ifau2J931QbuiUdO+YRZ8yO5cxRFNBo=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "admin2",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin2@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-02-12T09:14:28.937Z",
+        "groups": [],
+        "user_permissions": [],
+        "follows": []
+    }
+},
+{
+    "model": "img_app.profile",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$LssUvDtU7w3Z$6p1q3PH3pHh7wKTzXw1kcfRAHNVeWTaoEAp1ZfXj16Q=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "admin3",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin3@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-02-12T10:45:05.285Z",
+        "groups": [],
+        "user_permissions": [],
+        "follows": []
+    }
+},
+{
+    "model": "img_app.profile",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$3he0wrqgLOXL$m7oQbiFuNgJdIWEoGXs4zNQ4Uy7Jz0vKFzGat6/uoP0=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "admin4",
+        "first_name": "admin4",
+        "last_name": "admin4",
+        "email": "admin4@admin.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-02-12T11:32:37.017Z",
+        "groups": [],
+        "user_permissions": [],
+        "follows": []
+    }
+},
+{
+    "model": "img_app.post",
+    "pk": 1,
+    "fields": {
+        "image_caption": "post",
+        "image": "static/images/koceto.png.JPEG",
+        "author": 1,
+        "created": "2020-02-12T08:47:11.032Z",
+        "updated": "2020-02-12T09:14:55.560Z",
+        "likes": [
+            2
+        ]
+    }
+},
+{
+    "model": "img_app.post",
+    "pk": 2,
+    "fields": {
+        "image_caption": "post2",
+        "image": "static/images/hys.jpg",
+        "author": 2,
+        "created": "2020-02-12T10:01:21.121Z",
+        "updated": "2020-02-12T10:01:21.121Z",
+        "likes": [
+            1,
+            2
+        ]
+    }
+}
+]

@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+img_sharing/img_app/migrations
+img_sharing/static/images
+.idea
